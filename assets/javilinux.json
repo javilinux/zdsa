@@ -1,0 +1,127 @@
+{
+    "data": {
+        "attributes": {
+            "apikey": "redacted :)",
+            "email": "javilinux@gmail.com",
+            "first_name": "Javier",
+            "has_2fa": false,
+            "last_login": 1545662106,
+            "last_name": "Ramirez",
+            "privileges": {
+                "allinfo": {
+                    "expiration_date": 1548892800,
+                    "granted": false
+                },
+                "big-files": {
+                    "expiration_date": 1548892800,
+                    "granted": true
+                },
+                "distribution": {
+                    "expiration_date": 1548892800,
+                    "granted": false
+                },
+                "download": {
+                    "expiration_date": 1548892800,
+                    "granted": true
+                },
+                "file-feed": {
+                    "expiration_date": 1548892800,
+                    "granted": false
+                },
+                "full-distribution": {
+                    "expiration_date": 1548892800,
+                    "granted": false
+                },
+                "intelligence": {
+                    "expiration_date": 1548892800,
+                    "granted": true
+                },
+                "monitor": {
+                    "expiration_date": 1548892800,
+                    "granted": false
+                },
+                "monitor-partner": {
+                    "expiration_date": 1548892800,
+                    "granted": false
+                },
+                "private": {
+                    "expiration_date": 1548892800,
+                    "granted": true
+                },
+                "staff": {
+                    "granted": false
+                },
+                "url-distribution": {
+                    "expiration_date": 1548892800,
+                    "granted": false
+                },
+                "url-feed": {
+                    "expiration_date": 1548892800,
+                    "granted": false
+                },
+                "vtgrep": {
+                    "expiration_date": 1548892800,
+                    "granted": false
+                }
+            },
+            "quotas": {
+                "api_requests_daily": {
+                    "allowed": 20000,
+                    "used": 0
+                },
+                "api_requests_hourly": {
+                    "allowed": 60000,
+                    "used": 0
+                },
+                "api_requests_monthly": {
+                    "allowed": 178560,
+                    "used": 1170
+                },
+                "intelligence_downloads_monthly": {
+                    "allowed": 100,
+                    "used": 0
+                },
+                "intelligence_graphs_private": {
+                    "allowed": 0,
+                    "used": 0
+                },
+                "intelligence_hunting_rules": {
+                    "allowed": 0,
+                    "used": 0
+                },
+                "intelligence_retrohunt_jobs_monthly": {
+                    "allowed": 0,
+                    "used": 0
+                },
+                "intelligence_searches_monthly": {
+                    "allowed": 200,
+                    "used": 110
+                },
+                "monitor_storage_bytes": {
+                    "allowed": 0,
+                    "used": 0
+                },
+                "monitor_storage_files": {
+                    "allowed": 0,
+                    "used": 0
+                },
+                "monitor_uploaded_bytes": {
+                    "allowed": 0,
+                    "used": 0
+                },
+                "monitor_uploaded_files": {
+                    "allowed": 0,
+                    "used": 0
+                }
+            },
+            "reputation": 1,
+            "status": "active",
+            "user_since": 1518538199
+        },
+        "id": "javilinux",
+        "links": {
+            "self": "https://www.virustotal.com/api/v3/users/javilinux"
+        },
+        "type": "user"
+    }
+}

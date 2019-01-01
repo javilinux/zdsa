@@ -1,0 +1,37 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+</head>
+<body>
+<div id="content"></div>
+  <script id="requester-template" type="text/x-handlebars-template">
+  <table>
+  <tr>
+    <td>User:</td>
+    <td class="data"><a href="{{link}}">{{user}}</a></td>
+  </tr>
+  <tr>
+    <td>User Since:</td>
+    <td class="data">{{user_since}}</td>
+  </tr>
+  <tr>
+    <td>Quota Allowed:</td>
+    <td class="data">{{vti_allowed}}</td>
+  </tr>
+  <tr>
+    <td>Quota Used:</td>
+    <td class="data">{{vti_used}}</td>
+  </tr>
+  </table>
+</script>
+<script id="error-template" type="text/x-handlebars-template">
+	<p><b>{{user}}</b> is not a VirusTotal user.</p>
+</script>
+  <script src="https://cdn.jsdelivr.net/handlebarsjs/4.0.8/handlebars.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://assets.zendesk.com/apps/sdk/2.0/zaf_sdk.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
